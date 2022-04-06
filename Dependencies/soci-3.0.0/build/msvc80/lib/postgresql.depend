@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1211424840 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\blob.cpp
+	"soci-postgresql.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<sstream>
+
+1252072416 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\soci-postgresql.h
+	<soci-backend.h>
+	<libpq-fe.h>
+	<vector>
+
+1212719880 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\soci-backend.h
+	"soci-config.h"
+	"error.h"
+	<cstddef>
+	<map>
+	<string>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\soci-config.h
+
+1212809568 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\error.h
+	"soci-config.h"
+	<stdexcept>
+	<string>
+
+1246130748 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\libpq-fe\include\libpq-fe.h
+	<stdio.h>
+	"postgres_ext.h"
+
+1246130749 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\libpq-fe\include\postgres_ext.h
+
+1246130749 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\libpq-fe\include\libpq\libpq-fs.h
+
+1214599086 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\common.cpp
+	"common.h"
+	<soci-backend.h>
+	<cstdlib>
+	<ctime>
+
+1215197874 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\common.h
+	"soci-postgresql.h"
+	<limits>
+	<cstring>
+	<ctime>
+
+1211425812 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\factory.cpp
+	"soci-postgresql.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<sstream>
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\row-id.cpp
+	"soci-postgresql.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<sstream>
+
+1215438498 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\session.cpp
+	"soci-postgresql.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<sstream>
+
+1215028906 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\standard-into-type.cpp
+	"soci-postgresql.h"
+	"common.h"
+	"rowid.h"
+	"blob.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	<sstream>
+
+1212809674 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\rowid.h
+	"soci-config.h"
+
+1212809522 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\blob.h
+	"soci-config.h"
+	<cstddef>
+
+1211769268 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\standard-use-type.cpp
+	"soci-postgresql.h"
+	"rowid.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<limits>
+	<sstream>
+
+1211425726 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\statement.cpp
+	"soci-postgresql.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<sstream>
+
+1215028914 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\vector-into-type.cpp
+	"soci-postgresql.h"
+	"common.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<sstream>
+
+1211425982 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\backends\postgresql\vector-use-type.cpp
+	"soci-postgresql.h"
+	"common.h"
+	<libpq/libpq-fs.h>
+	<cctype>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<limits>
+	<sstream>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MiM2 - Server" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\MiM2 - Server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="..\Dependencies\boost" />
+					<Add directory="..\Protocol" />
+					<Add directory="..\Dependencies\Protobuf\" />
+					<Add directory="..\Dependencies\base64" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\Dependencies\boost\libs\libboost_system-mgw44-mt-1_42.lib" />
+					<Add library="..\Dependencies\boost\libs\libboost_thread-mgw44-mt-1_42.lib" />
+					<Add library="..\Dependencies\libpq-fe\libpq.lib" />
+					<Add library="..\Dependencies\Protobuf\lib\libprotobuf.a" />
+					<Add library="..\Dependencies\soci-3.0.0\build\msvc80\lib\ReleaseWin32\libsoci-core.a" />
+					<Add library="..\Dependencies\soci-3.0.0\build\msvc80\lib\ReleaseWin32\libsoci-postgre.a" />
+					<Add library="D:\MinGW\lib\libws2_32.a" />
+					<Add library="D:\MinGW\lib\libwsock32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="..\Dependencies\base64\base64.cpp" />
+		<Unit filename="..\Dependencies\base64\base64.h" />
+		<Unit filename="EventListener.h" />
+		<Unit filename="Receiver.cpp" />
+		<Unit filename="Receiver.h" />
+		<Unit filename="Server.cpp" />
+		<Unit filename="Server.h" />
+		<Unit filename="Session.cpp" />
+		<Unit filename="Session.h" />
+		<Unit filename="TCPClient.cpp" />
+		<Unit filename="TCPClient.h" />
+		<Unit filename="TCPClientEventListener.h" />
+		<Unit filename="TCPServer.cpp" />
+		<Unit filename="TCPServer.h" />
+		<Unit filename="Util.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="..\Protocol\Protocol.pb.cc" />
+		<Unit filename="..\Protocol\Protocol.pb.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,19 @@
+package Protocol;
+
+//Exemplo:
+//config = "zip"
+//value = "true"
+//
+//config = "site"
+//value = "www.google.com"
+message Config
+{
+	required string key = 1;
+	required string value = 2;
+}
+message Data
+{
+	repeated Config config = 1;
+	optional string data = 2;
+	optional string exception = 3;
+}

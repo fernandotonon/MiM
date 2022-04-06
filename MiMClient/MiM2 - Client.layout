@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="EventListener.h" open="1" top="0" tabpos="8">
+		<Cursor position="113" topLine="0" />
+	</File>
+	<File name="Hacks.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="297" topLine="0" />
+	</File>
+	<File name="Hacks.h" open="1" top="0" tabpos="7">
+		<Cursor position="103" topLine="0" />
+	</File>
+	<File name="Receiver.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="983" topLine="21" />
+	</File>
+	<File name="Server.cpp" open="1" top="1" tabpos="6">
+		<Cursor position="1165" topLine="36" />
+	</File>
+	<File name="Server.h" open="0" top="0" tabpos="3">
+		<Cursor position="694" topLine="0" />
+	</File>
+	<File name="Session.h" open="1" top="0" tabpos="2">
+		<Cursor position="101" topLine="0" />
+	</File>
+	<File name="TCPClient.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="572" topLine="3" />
+	</File>
+	<File name="TCPServer.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="2664" topLine="55" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="361" topLine="3" />
+	</File>
+	<File name="..\Protocol\Protocol.pb.h" open="0" top="0" tabpos="3">
+		<Cursor position="11563" topLine="288" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,216 @@
+# depslib dependency file v1.0
+1214419220 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\backend-loader.cpp
+	"backend-loader.h"
+	"error.h"
+	<map>
+	<cassert>
+	<cstdlib>
+	<windows.h>
+	<pthread.h>
+	<dlfcn.h>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\backend-loader.h
+	"soci-backend.h"
+	<string>
+	<vector>
+
+1212719880 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\soci-backend.h
+	"soci-config.h"
+	"error.h"
+	<cstddef>
+	<map>
+	<string>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\soci-config.h
+
+1212809568 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\error.h
+	"soci-config.h"
+	<stdexcept>
+	<string>
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\blob.cpp
+	"blob.h"
+	"session.h"
+	<cstddef>
+
+1212809522 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\blob.h
+	"soci-config.h"
+	<cstddef>
+
+1212809412 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\session.h
+	"once-temp-type.h"
+	<ostream>
+	<sstream>
+	<string>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\once-temp-type.h
+	"ref-counted-statement.h"
+	"prepare-temp-type.h"
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\ref-counted-statement.h
+	"statement.h"
+	"into-type.h"
+	"use-type.h"
+
+1214859972 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\statement.h
+	"into-type.h"
+	"into.h"
+	"use-type.h"
+	"soci-backend.h"
+	"row.h"
+	<string>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\into-type.h
+	"soci-backend.h"
+	"type-ptr.h"
+	"exchange-traits.h"
+	<string>
+	<vector>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\type-ptr.h
+
+1214599136 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\exchange-traits.h
+	"type-conversion-traits.h"
+	"soci-backend.h"
+	<ctime>
+	<vector>
+
+1215091410 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\type-conversion-traits.h
+	"soci-backend.h"
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\into.h
+	"into-type.h"
+	"exchange-traits.h"
+	"type-conversion.h"
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\type-conversion.h
+	"type-conversion-traits.h"
+	"into-type.h"
+	"use-type.h"
+	<vector>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\use-type.h
+	"soci-backend.h"
+	"type-ptr.h"
+	"exchange-traits.h"
+	<string>
+	<vector>
+
+1214419294 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\row.h
+	"type-holder.h"
+	"soci-backend.h"
+	"type-conversion.h"
+	<cassert>
+	<string>
+	<vector>
+	<map>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\type-holder.h
+	<typeinfo>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\prepare-temp-type.h
+	"into-type.h"
+	"use-type.h"
+	"ref-counted-prepare-info.h"
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\ref-counted-prepare-info.h
+	"ref-counted-statement.h"
+	<vector>
+
+1214190732 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\connection-pool.cpp
+	"connection-pool.h"
+	"error.h"
+	"session.h"
+	<vector>
+	<utility>
+	<pthread.h>
+	<sys/time.h>
+	<errno.h>
+	<Windows.h>
+
+1210881502 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\connection-pool.h
+	"soci-config.h"
+	<cstddef>
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\error.cpp
+	"error.h"
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\into-type.cpp
+	"into-type.h"
+	"statement.h"
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\once-temp-type.cpp
+	"once-temp-type.h"
+	"ref-counted-statement.h"
+	"session.h"
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\prepare-temp-type.cpp
+	"prepare-temp-type.h"
+	"ref-counted-prepare-info.h"
+	"session.h"
+
+1213362268 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\procedure.cpp
+	"procedure.h"
+	"statement.h"
+	"prepare-temp-type.h"
+
+1213362268 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\procedure.h
+	"statement.h"
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\ref-counted-prepare-info.cpp
+	"ref-counted-prepare-info.h"
+	"session.h"
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\ref-counted-statement.cpp
+	"ref-counted-statement.h"
+	"session.h"
+
+1213236620 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\row.cpp
+	"row.h"
+	<cctype>
+	<sstream>
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\rowid.cpp
+	"rowid.h"
+	"session.h"
+
+1212809674 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\rowid.h
+	"soci-config.h"
+
+1212719874 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\session.cpp
+	"session.h"
+	"connection-pool.h"
+	"soci-backend.h"
+	"backend-loader.h"
+
+1214859980 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\statement.cpp
+	"statement.h"
+	"session.h"
+	"into-type.h"
+	"use-type.h"
+	"values.h"
+	<ctime>
+
+1214419296 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\values.h
+	"statement.h"
+	"into-type.h"
+	"use-type.h"
+	<sstream>
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\transaction.cpp
+	"transaction.h"
+	"error.h"
+
+1212809746 c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\transaction.h
+	"session.h"
+	"soci-config.h"
+	<string>
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\use-type.cpp
+	"use-type.h"
+	"statement.h"
+
+1210881518 source:c:\documents and settings\alexandro\meus documentos\my dropbox\projetoarret\dependencies\soci-3.0.0\src\core\values.cpp
+	"values.h"
+	"row.h"
+
